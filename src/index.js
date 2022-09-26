@@ -31,6 +31,11 @@ app.post('/checkout', function(req, res) {
             unit_price: 100,
             quantity: 1,
           },
+          {
+            title: "Mi producto2",
+            unit_price: 1000,
+            quantity: 1,
+          }
         ],
       };
       
